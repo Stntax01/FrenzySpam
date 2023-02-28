@@ -1,5 +1,5 @@
 build:
   docker:
-    Altron: Dockerfile
+    Frenzy: Dockerfile
 run:
-  Altron: python3 -m main.py
+  Frenzy: python3 -m main.py
