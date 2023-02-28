@@ -6,8 +6,8 @@ from config import SUDO_USERS
 
 
 def load_plugins(plugin_name):
-    path = Path(f"AltronX/modules/{plugin_name}.py")
-    name = "AltronX.modules.{}".format(plugin_name)
+    path = Path(f"Frenzy/modules/{plugin_name}.py")
+    name = "Frenzy.modules.{}".format(plugin_name)
     spec = importlib.util.spec_from_file_location(name, path)
     load = importlib.util.module_from_spec(spec)
     load.logger = logging.getLogger(plugin_name)
