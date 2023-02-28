@@ -1,1 +1,1 @@
-Altron: python -m main.py
+Frenzy: python -m main.py
